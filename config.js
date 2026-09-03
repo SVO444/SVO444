@@ -14,11 +14,12 @@ const moduleCache = new NodeCache({ stdTTL: 300 });
 	
 global.gab = ['393882471151',]
 global.owner = [
-  ['393792036333', 'Lucifero', true],
-  ['393892430108', 'Gab', true],
-  ['66621409462', 'Matte', true],
+  ['393336413960', 'svo', true],
+  ['393510516821', 'manguelo', true],
+  ['6287769547692', 'gab', true],
   ['393701330693', 'Blood', true],
 ]
+
 
 
 global.nomepack = '333'
