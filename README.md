@@ -401,8 +401,8 @@ Este proyecto está liberado bajo licencia [MIT](LICENSE)
 
 **💻 JavaScript | Python Developer**
 
-📱 **WhatsApp:** +39 389 243 0108
+📱 **WhatsApp:** +39 333 641 3960
 
-**© 2024 333-Bot - All Rights Reserved**
+**© 2027 444-Bot - All Rights Reserved**
 
 </div>
