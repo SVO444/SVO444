@@ -1,0 +1,37 @@
+
+const handler = async (m, { text }) => {
+  const who =
+    m.mentionedJid?.[0] ||
+    m.quoted?.sender ||
+    (text?.trim()
+      ? `${text.replace(/\D/g, '')}@s.whatsapp.net`
+      : null);
+
+  if (!who || who === '@s.whatsapp.net') {
+    return m.reply('❌ Usa: .ban 393331234567 oppure menziona un utente.');
+  }
+
+  if (who === m.sender) {
+    return m.reply('❌ Non puoi bannare te stesso.');
+  }
+
+  const users = global.db.data.users;
+  const user = users[who] ||= {};
+
+  user.banned = true;
+
+  return m.reply(
+    `╭━━━〔 444-BOT 〕━━━╮\n` +
+    `┃ 🚫 NUMERO BANNATO\n` +
+    `┃ 📱 ${who.split('@')[0]}\n` +
+    `┃ 🔒 Accesso al bot disabilitato\n` +
+    `╰━━━━━━━━━━━━━━━━╯`
+  );
+};
+
+handler.help = ['ban <numero>'];
+handler.tags = ['owner'];
+handler.command = ['ban'];
+handler.owner = true;
+
+export default handler;
