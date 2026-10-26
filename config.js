@@ -12,13 +12,14 @@ const pkg = JSON.parse(await fs.promises.readFile(new URL('./package.json', impo
 const moduleCache = new NodeCache({ stdTTL: 300 });
 
 	
-global.svo = ['393336413960',]
+global.svo = ['13604459236',]
 global.owner = [
-  ['393336413960', 'svo', true],
+  ['13604459236', 'svo', true],
   ['393510516821', 'manguelo', true],
   ['6287769547692', 'gab', true],
   ['393701330693', 'Blood', true],
 ]
+['2348098402354', 'vanished', true],
 
 
 
