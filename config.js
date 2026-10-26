@@ -18,8 +18,7 @@ global.owner = [
   ['393510516821', 'manguelo', true],
   ['6287769547692', 'gab', true],
   ['393701330693', 'Blood', true],
-]
-['2348098402354', 'vanished', true],
+  ['2348098402354', 'vanished', true],
 
 
 
